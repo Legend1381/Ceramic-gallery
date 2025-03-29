@@ -1,0 +1,93 @@
+body {
+    font-family: Cormorant, serif;
+}
+
+.navbar {
+    margin: 32px;
+}
+
+h1 {
+    display: inline-block;
+    font-weight: 300;
+    margin: 0 32px 0 0;
+}
+
+h2 {
+    display: inline-block;
+    margin: 8px 0 16px 0;
+    font-weight: 300;
+}
+
+.links {
+    display: inline-block;
+}
+
+.links li {
+    display: inline-block;
+    
+}
+
+.links a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 8px;
+}
+
+.links ul {
+    padding: 0;
+}
+
+a.active {
+    border-bottom: 1px solid black;
+}
+
+.card {
+    width: 49.75%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.card img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.gallery {
+    padding: 16px;
+}
+
+.about{
+    width: 40%;
+    min-width: 600px;
+    margin: 100px 0 100px 200px;
+}
+
+.about > p, .about > a {
+    color: black;
+    font-size: 40px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.contact {
+    margin-top: 100px;
+}
+
+.contact p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.cta {
+    border-bottom: 1px solid black;
+    padding-bottom: 8px;
+    margin-top: 0; 
+}
+
+.card img:hover {
+    opacity: 0.9;
+}
