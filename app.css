@@ -61,7 +61,6 @@ a.active {
 
 .about{
     width: 40%;
-    min-width: 600px;
     margin: 100px 0 100px 200px;
 }
 
@@ -90,4 +89,30 @@ a.active {
 
 .card img:hover {
     opacity: 0.9;
+}
+
+@media only screen and (max-width: 1000px){
+    .card {
+        width: 100vw;
+        padding-left: 0;
+    }
+    .about{  
+        width: 70%;     
+        margin: 100px 0 100px 50px;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    .card {
+        width: 100vw;
+    }
+    .about {  
+        width: 70%;     
+        margin: 100px 0 100px 20px;
+    }
+    .about > p, .about > a{       
+        font-size: 30px;
+        font-weight: 300;
+        
+    }
 }
